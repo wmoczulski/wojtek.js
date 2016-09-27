@@ -19,7 +19,7 @@ Array.prototype.last = function () {
 
 /**
  * Note that arrays with strings as key are actually objects, and depending on implementation may not be ordered
- * @returns {string} first key of array
+ * @returns {*} first key of array
  */
 Array.prototype.firstKey = function () {
     for (key in this) {
